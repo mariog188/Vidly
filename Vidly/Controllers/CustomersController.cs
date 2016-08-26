@@ -32,7 +32,7 @@ namespace Vidly.Controllers
         [Route("Detail/{id}")]
         public ActionResult Detail(string id)
         {
-            Customer customer = context.Customers.ToList().FirstOrDefault(item => item.Id.ToString().Equals(id));
+            Customer customer = context.Customers.Include(item => item.MembershipType).ToList().FirstOrDefault(item => item.Id.ToString().Equals(id));
             if (customer != null)
                 return View(customer);
             else

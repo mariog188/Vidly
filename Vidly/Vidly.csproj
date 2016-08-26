@@ -223,9 +223,38 @@
     <Compile Include="Migrations\201608252324312_applyannotations.Designer.cs">
       <DependentUpon>201608252324312_applyannotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608261158086_NameMembershiptype.cs" />
+    <Compile Include="Migrations\201608261158086_NameMembershiptype.Designer.cs">
+      <DependentUpon>201608261158086_NameMembershiptype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608261158452_updateMembershiptype.cs" />
+    <Compile Include="Migrations\201608261158452_updateMembershiptype.Designer.cs">
+      <DependentUpon>201608261158452_updateMembershiptype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608261204550_updateMembershiptype2.cs" />
+    <Compile Include="Migrations\201608261204550_updateMembershiptype2.Designer.cs">
+      <DependentUpon>201608261204550_updateMembershiptype2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608261215338_CustomerBirth.cs" />
+    <Compile Include="Migrations\201608261215338_CustomerBirth.Designer.cs">
+      <DependentUpon>201608261215338_CustomerBirth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608261240075_GenreModel.cs" />
+    <Compile Include="Migrations\201608261240075_GenreModel.Designer.cs">
+      <DependentUpon>201608261240075_GenreModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608261246145_GenreModel2.cs" />
+    <Compile Include="Migrations\201608261246145_GenreModel2.Designer.cs">
+      <DependentUpon>201608261246145_GenreModel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608261248037_GenreModel3.cs" />
+    <Compile Include="Migrations\201608261248037_GenreModel3.Designer.cs">
+      <DependentUpon>201608261248037_GenreModel3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -324,6 +353,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608252324312_applyannotations.resx">
       <DependentUpon>201608252324312_applyannotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261158086_NameMembershiptype.resx">
+      <DependentUpon>201608261158086_NameMembershiptype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261158452_updateMembershiptype.resx">
+      <DependentUpon>201608261158452_updateMembershiptype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261204550_updateMembershiptype2.resx">
+      <DependentUpon>201608261204550_updateMembershiptype2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261215338_CustomerBirth.resx">
+      <DependentUpon>201608261215338_CustomerBirth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261240075_GenreModel.resx">
+      <DependentUpon>201608261240075_GenreModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261246145_GenreModel2.resx">
+      <DependentUpon>201608261246145_GenreModel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608261248037_GenreModel3.resx">
+      <DependentUpon>201608261248037_GenreModel3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
