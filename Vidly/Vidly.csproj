@@ -203,10 +203,32 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608251314162_InitialModel.cs" />
+    <Compile Include="Migrations\201608251314162_InitialModel.Designer.cs">
+      <DependentUpon>201608251314162_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608252308593_AddIsSubscrubed.cs" />
+    <Compile Include="Migrations\201608252308593_AddIsSubscrubed.Designer.cs">
+      <DependentUpon>201608252308593_AddIsSubscrubed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608252313191_MembershipType.cs" />
+    <Compile Include="Migrations\201608252313191_MembershipType.Designer.cs">
+      <DependentUpon>201608252313191_MembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608252316166_populateMembershipTypes.cs" />
+    <Compile Include="Migrations\201608252316166_populateMembershipTypes.Designer.cs">
+      <DependentUpon>201608252316166_populateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608252324312_applyannotations.cs" />
+    <Compile Include="Migrations\201608252324312_applyannotations.Designer.cs">
+      <DependentUpon>201608252324312_applyannotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -286,6 +308,23 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201608251314162_InitialModel.resx">
+      <DependentUpon>201608251314162_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608252308593_AddIsSubscrubed.resx">
+      <DependentUpon>201608252308593_AddIsSubscrubed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608252313191_MembershipType.resx">
+      <DependentUpon>201608252313191_MembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608252316166_populateMembershipTypes.resx">
+      <DependentUpon>201608252316166_populateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608252324312_applyannotations.resx">
+      <DependentUpon>201608252324312_applyannotations.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
